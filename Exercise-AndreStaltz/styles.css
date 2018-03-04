@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    display: block;
+   
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+p{
+
+}
+.header{
+    height: 100px;
+    background: linear-gradient(#83C3A5 0%,#72C2C1 100%)
+    
+}
+
+.container{
+    margin-right:  auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 100px;
+}
