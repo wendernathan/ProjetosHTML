@@ -1,0 +1,152 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+h1, h2{
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.titulo-principal{
+    font-size: 60px;
+    background-color: #851944;
+    color: #FFF;
+    text-align: center;
+    padding: 25px;
+    border-bottom: solid #000000;
+    text-transform: uppercase;
+}
+
+p{
+    margin: 20px;
+    text-align: justify;
+}
+
+
+
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
+
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+}
+
+nav a{
+    text-transform: lowercase;
+}
+
+main a{
+    color:#851944;
+}
+
+navegacao-site a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.navegacao-site, .rodape-pagina{
+    padding: 20px;
+}
+
+.container{
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+    padding-bottom: 80px;
+
+}
+
+.navegacao-site h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
+
+.subtitulo-texto{
+    margin: 20px;
+    font-size: 30px;
+    clear: both;
+}
+
+.icones-sociais li{
+    display: inline-block;
+}
+
+.article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+
+nav a{
+    text-transform: lowercase;
+}
+
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(../img/github.png);
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
+}
+
+.linkedin{
+    background-image: url(../img/linkedin.png);
+}
+
+.minha-foto, .navegacao-site {
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+main {
+    float: left;
+    width: 85%; 
+}
+
+.minha-foto{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 310px;
+
+}
