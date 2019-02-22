@@ -1,0 +1,13 @@
+.head{
+    height: 110px;
+    background-image: linear-gradient(to right,#66CDAA,#1E90FF);
+    background-size: cover;
+}
+
+.container{
+    text-align: center;
+}
+
+.txt{
+    text-align: left;
+}
